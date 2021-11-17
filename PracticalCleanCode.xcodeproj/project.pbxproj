@@ -56,7 +56,6 @@
 				953DD7A7B3C2162F0D6EDDCA /* Pods-PracticalCleanCode.debug.xcconfig */,
 				78E3545A2D42E1304AD21238 /* Pods-PracticalCleanCode.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -100,6 +99,7 @@
 			buildConfigurationList = 91DA4B452745AAC00095D945 /* Build configuration list for PBXNativeTarget "PracticalCleanCode" */;
 			buildPhases = (
 				A2780C24BDEEFE2564B98A64 /* [CP] Check Pods Manifest.lock */,
+				91DA4B482745B0970095D945 /* Swiftlint */,
 				91DA4B2D2745AAB80095D945 /* Sources */,
 				91DA4B2E2745AAB80095D945 /* Frameworks */,
 				91DA4B2F2745AAB80095D945 /* Resources */,
@@ -177,6 +177,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PracticalCleanCode/Pods-PracticalCleanCode-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		91DA4B482745B0970095D945 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		A2780C24BDEEFE2564B98A64 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
