@@ -59,6 +59,13 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		917986D9274973C700600CCA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		91DA4B282745AAB80095D945 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +87,7 @@
 		91DA4B332745AAB80095D945 /* PracticalCleanCode */ = {
 			isa = PBXGroup;
 			children = (
+				917986D9274973C700600CCA /* Core */,
 				91DA4B342745AAB80095D945 /* AppDelegate.swift */,
 				91DA4B362745AAB80095D945 /* SceneDelegate.swift */,
 				91DA4B382745AAB80095D945 /* ViewController.swift */,
